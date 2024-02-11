@@ -5,8 +5,8 @@
 }
 
 body {
-  min-width: 1100px;
-  max-width: 1500px;
+  max-height: 757px;
+  max-width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
