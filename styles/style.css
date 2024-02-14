@@ -1,8 +1,8 @@
 .header {
   display: grid;
-  grid-template-columns: 1.51fr 1.2fr 1.5fr;
+  grid-template-columns: 1.51fr 1.2fr 1.7fr;
   align-items: center;
-  padding: 80px 50px 80px 50px;
+  padding: 76px 50px 0px 51px;
   font-family: Raleway,Arial,sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -15,6 +15,7 @@
   justify-self: start;
   column-gap: 32px;
   white-space: nowrap;
+  padding-top: 10px;
 }
 
 .header__links-list-item {
@@ -35,7 +36,6 @@
 
 .header__logo {
   margin-left: 40px;
-  
 }
 
 .header__logo-img {
@@ -60,7 +60,7 @@
 .cover {
   position: relative;
   padding: 165px 50px 50px 50px;
-  margin-top: 10px;
+  margin-top: 96px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -121,8 +121,8 @@
   align-items: center;
   gap: 12px;
   position: inherit;
-  margin-top: 130px;
-  margin-left: 78px;
+  margin-top: 126px;
+  margin-left: 77px;
 }
 
 .cover__description-text {
@@ -165,11 +165,11 @@
 }
 
 .lots {
-  margin: 179px 24px 0 24px
+  margin: 177px 24px 0 24px
 }
 
 .lots__heading {
-  padding: 0 0 30px 40px;
+  padding: 0 7px 30px 40px;
   color: #000;
   font-family: Raleway,Arial,sans-serif;
   font-size: 40px;
@@ -192,7 +192,7 @@
 .lots__card-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
+  gap: 26px;
 }
 
 .lots__card-list-item {
@@ -228,7 +228,7 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;
-  margin: 0 40px 50px 40px;
+  margin: 0 40px 45px 40px;
 }
 
 .card__link {
@@ -253,7 +253,7 @@
   line-height: normal;
   text-decoration: underline;
   text-align: end;
-  margin: 25px 0 0 40px;
+  margin: 31px 0 0 40px;
   width: fit-content;
 }
 
@@ -261,7 +261,7 @@
   display: grid;
   grid-column-gap: 24px;
   padding: 0 20px 0 20px;
-  margin-top: 146px;
+  margin-top: 148px;
   
 }
 
@@ -273,7 +273,7 @@
   grid-row-end: 3;
   grid-auto-flow: row;
   padding-top: 3px;
-  margin: 127px 20px 13px 20px;
+  margin: 132px 20px 13px 13px;
 }
 
 .about__logo {
@@ -284,7 +284,7 @@
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  margin: 30px 35px 320px 45px;
+  margin: 35px 35px 320px 50px;
 }
 
 .about__logo-image {
@@ -316,7 +316,7 @@
   display: flex;
   justify-content: space-between; 
   max-width: 1000px;
-  margin: 170px 50px 0px 50px;
+  margin: 168px 48px 88px 48px;
 
 }
 
